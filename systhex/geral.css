@@ -1,0 +1,416 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	background:url(../img/bg.jpg) no-repeat #000 center top;
+	border-top:7px #000 solid;
+	font-size:12px;
+}
+h2 {
+	margin:0px;
+	padding:0px;
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ffcc0a;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #000;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+#principal {
+	width:960px;
+	position:relative;
+	margin:0 auto;
+}
+/*-----------------------------------TOPO-----------------------------------*/
+#cabeca {
+	position:relative;
+	width:960px;
+	overflow:hidden;
+}
+#logo {
+	position:relative;
+	text-indent:-9999px;
+	background-image:url(../img/logo.png);
+	width:390px;
+	height:130px;
+	float:left;
+}
+#logo a {
+	display:block;
+	width:390px;
+	height:130px;
+}
+#pesquisa {
+	float:right;
+	position:relative;
+	width:435px;
+	top:40px;
+}
+.campo-pesquisa {
+	width:335px;
+	padding:7px;
+}
+.submenu {
+	width:376px;
+	padding-top:5px;
+	height:27px;
+	position:relative;
+	float:right;
+	color:#999;
+	background-color:#000;
+}
+.submenu ul {
+	width:376px;
+	line-height:27px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+}
+.submenu .comeco {
+	float:left;
+	padding-left:5px;
+	padding-right:10px;
+}
+.submenu .botao-facebook {
+	float:left;
+	text-indent:-9999px;
+	margin-left:16px;
+	margin-top:4px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/facebook-logo.png);
+}
+.submenu .botao-twitter {
+	float:left;
+	text-indent:-9999px;
+	margin-left:16px;
+	margin-top:4px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/twitter-logo.png);
+}
+.submenu .botao-delicious {
+	float:left;
+	text-indent:-9999px;
+	margin-left:16px;
+	margin-top:4px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/delicious-logo.png);
+}
+.submenu .botao-mail {
+	float:left;
+	text-indent:-9999px;
+	margin-left:16px;
+	margin-top:4px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/mail-logo.png);
+}
+.submenu .botao-feed {
+	float:left;
+	text-indent:-9999px;
+	margin-left:16px;
+	margin-top:4px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/feed-logo.png);
+}
+.submenu li a {
+	display:block;
+}
+/*-----------------------------------MENU-----------------------------------*/
+ul#menu {
+	background:url(../img/barra-menu.jpg) top left repeat-x;
+	width:960px;
+	height:28px;
+	clear:both;
+	list-style:none;
+	margin:0;
+	padding:7px 0 13px;
+}
+ul#menu li {
+	float:left;
+	padding:10px;
+}
+ul#menu li a {
+	text-align:center;
+	color:#ffcc0a;
+	padding:10px;
+}
+ul#menu li a:hover {
+	color:#000;
+	text-decoration:none;
+	background-color:#ffcc0a;
+	-moz-box-shadow:0 1px 5px #666;
+	-webkit-box-shadow:0 1px 5px #666;
+}
+#menu li.ultimo-lista-menu {
+	float:right;
+	padding-left:15px;
+}
+#menu li.ultimo-lista-menu a {
+	padding-left:25px;
+	background:url(../img/botao-casinha.png) no-repeat center left;
+}
+/*-----------------------------------CONTEUDO PRINCIPAL-----------------------------------*/
+#conteudo {
+	width:960px;
+	margin-top:30px;
+	overflow:hidden;
+	color:#ffcc0a;
+}
+#conteudo-esquerdo {
+	float:left;
+	width:228px;
+}
+.bloco-esquerdo {
+	position:relative;
+	padding:20px 12px;
+	border:solid #003d80 1px;
+	color:#FFF;
+	width:202px;
+	background-color:#F00;
+	float:left;
+	margin-bottom:30px;
+	background-image:url(../img/fundo-box.jpg);
+	background-repeat:repeat-x;
+}
+#logos-duelo {
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.logo-time {
+	float:left;
+	width:80px;
+	height:100px;
+	text-align:center;
+	font-weight:bold;
+}
+#proximos-jogos span {
+	font-size:28px;
+	font-weight:bold;
+	margin-top:30px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+}
+#conteudo-centro {
+	position:relative;
+	float:left;
+	margin-left:12px;
+	width:480px;
+}
+.bloco-centro {
+	position:relative;
+	border:solid #003d80 1px;
+	padding:20px 20px;
+	width:438px;
+	background:url(../img/fundo-box.jpg) #a90100;
+	background-repeat:repeat-x;
+	float:left;
+	margin-bottom:30px;
+	color:#FFF;
+}
+#conteudo-direito {
+	position:relative;
+	margin-left:12px;
+	float:left;
+	width:228px;
+}
+.bloco-direito {
+	position:relative;
+	border:solid #003d80 1px;
+	padding:20px 12px;
+	width:202px;
+	background-color:#F00;
+	float:left;
+	background-image:url(../img/fundo-box.jpg);
+	background-repeat:repeat-x;
+	margin-bottom:30px;
+	color:#FFF;	
+}
+/*-----------------------------------RODAPÉ-----------------------------------*/
+#rodape {
+	position:relative;
+	clear:both;
+	margin-top:30px;
+	background-color:#000;
+	border-top:#666 solid 2px;
+	color:#666;
+}
+#rodape-conteudo {
+	background-color:#000;
+	width:960px;
+	position:relative;
+	left:50%;
+	margin-left:-480px;
+	color:#999999;
+	overflow:hidden;
+}
+#rodape-conteudo p {
+	float:left;
+}
+#rodape-conteudo .redsuns {
+	float:right;
+}
+#rodape-conteudo .redsuns a {
+	color:#999999;
+}
+.button {
+	background: transparent url(../img/botao.png) repeat-x top right;
+	color: #ffcc0a;
+	float: left;
+	height: 35px;
+	padding-left:7px;
+	padding-right:7px;
+	text-decoration: none;
+	font-weight:normal;
+	border:#003d80 solid 1px;
+	margin-left:10px;
+}
+.button:hover {
+	cursor:pointer;
+	background: transparent url(../img/botao.png) repeat-x bottom right;
+	text-shadow:1px 1px 1px #000;
+	-moz-box-shadow:0 3px 2px #000;
+	-webkit-box-shadow:0 1px 2px #000;
+}
+/*-----------------------------------TABSÉ-----------------------------------*/
+
+.container {
+	width: 480px;
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #003d80;
+	width: 100%;
+	color:#000;	
+	
+}
+ul.tabs li {
+	border-bottom: 1px solid #003d80;	
+	float: left;
+	width:157px;
+	margin: 0;
+	padding: 0;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #000;
+	border-bottom: 1px solid #003d80;	
+	border-left: none;
+	margin-bottom: -1px;
+	background:url(../img/barra-tab-inactive.gif);
+	overflow: hidden;
+	position: relative;
+	text-align:center;
+}
+ul.tabs li a {
+	text-decoration: none;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	outline: none;
+	border: 1px solid 003d80;	
+}
+ul.tabs li a:hover {
+	background:url(../img/barra-tab-hover.gif);
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover {
+	background:url(../img/barra-tab.gif);
+	border-bottom: 1px solid #003d80;
+}
+
+li.active{
+	border:1px #000;	
+}
+
+li.active a{
+	color:#ffcc0a;
+	text-shadow:1px 1px 1px #000;	
+}
+ul.tabs li{
+	color:#000;
+}
+
+
+.tab_container {
+	border: 1px solid #003d80;
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+	color:#000;
+}
+.tab_content {
+	font-size: 1.2em;
+}
+/*-----------------------------------TABS FIMÉ-----------------------------------*/
+
+.tab_container ul {
+	list-style-type:none;
+}
+.tab_container li {
+	padding:20px;
+	list-style-type:none;
+	font-size:12px;
+	overflow:hidden;
+}
+.cinza {
+	background-color:#f1f1f1;
+}
+.tab_container li p {
+	padding:5px 20px;
+	background:url(../img/relogio.png) left center no-repeat;
+	width:62px;
+	font-size:10px;
+	float:left;
+	margin:0;
+}
+.tab_container li span {
+	margin-top:5px;
+	float:left;
+}
+.tab_container li span img {
+	margin:0 5px;
+}
+.paginacao {
+	margin-top:40px;
+	position:relative;
+	padding:20px;
+	font-size:12px;
+}
+.paginacao a {
+	padding:2px 5px;
+	background-color:#1d2625;
+	color:#fff;
+	margin:0 2px;
+}
+.tab_container li p.data {
+	position:relative;
+	margin-right:50px;
+	padding:10px;
+	background:url(../img/bg-data-hora.gif) repeat-x left center;
+	border:1px solid #ccc;
+	width:30px;
+	text-align:center;
+	font-size:10px;
+	float:left;
+}
+
+#textarea, #textfield, #textfield2, #textfield3{
+	width:330px;
+}

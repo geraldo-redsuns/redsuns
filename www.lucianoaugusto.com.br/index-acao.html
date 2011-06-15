@@ -1,0 +1,537 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Bombardier_400.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace('.cufon',{ fontFamily: 'Bombardier', hover:true});
+</script>
+<!--script para funcionar tabs-cursos-->
+<script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script type='text/javascript'>
+$(function() {
+
+	$(".tabs").organicTabs();
+
+});
+</script>
+
+
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox1").fancybox({
+	         'type' : 'iframe',				
+         	'autoScale' : false,									
+			'autoDimensions'	: false,									
+			'width'    	: 645,
+			'height'   	: 640,				
+			});
+			
+			$(".fancybox2").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 430,		
+			});
+					
+			$(".fancybox3").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 490,		
+			});
+					
+			$(".fancybox4").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 570,		
+			});		
+		$('#preco_cad').priceFormat({
+			prefix: '',
+			centsSeparator: ',',
+			thousandsSeparator: '.'
+		}); 
+
+		$("a[rel=example_group]").fancybox({
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'titlePosition' 	: 'over'
+		});
+
+	});
+
+</script>
+<!-- fim script para funcionar tabs-cursos-->
+<title>Luciano Augusto</title>
+</head>
+
+<body>
+<!--comeca topo-->
+<div id="bg-header-inicial">
+  <div id="header">
+    <h1 class="logomarca"><a href="#">Luciano Augusto</a></h1>
+    <ul class="menu-topo">
+      <li class="btn-blog"><a href="#">Blog</a></li>
+      <li class="btn-convide"><a href="#">Convide</a></li>
+      <li class="btn-duvidas"><a href="#">Dúvidas</a></li>
+    </ul>        <div class="clear"></div>
+    <ul class="menu-principal cufon">
+      <li><a href="#">início</a></li>
+      <li><a href="#">sobre a comunidade</a></li>
+      <li><a href="#">parceiros</a></li>
+      <li><a href="#">cursos</a></li>
+      <li><a href="#">anuncie</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">vagas</a></li>
+      <li><a href="#">contato</a></li>
+    </ul>
+    <ul class="menu-login cufon">
+      <li><a href="#">Olá José Matias</a></li>
+      <li><a href="#">Perfil</a></li>
+        <li><a href="#">Amigos</a></li>
+        <li><a href="#">Sair</a></li>
+    </ul>
+    <div class="clear"></div>
+    <!--banner-->
+    <div id="topo-slider">
+	<a href="#" class="seta-ant">anterior</a><a href="#" class="seta-prox">próximo</a>
+    <div class="texto">
+    <h2 class="cufon">Bem vindo<span> a maior comunidade do Brasil</span></h2>
+    <p>Lorem ipsum dolor sit amet, adipiscing elit. Praesent congue, lectus at sollicitudin consectetur, dolor metus tincidunt dolor eget eleifend felis urna sit amet orci. Aliquam et ligula non mauris vehicula gravida. Maecenas mi lacus, hendrerit quis molestie eget, cursus sed massa. Ut eu mi at nulla aliquam commodo. Donec velit dui, cursus a consequat tincidunt, volutpat sed libero.
+</p><br /><br />
+	<a href="#" class="btn1 cufon" style=" margin-right:10px;">cadastre-se</a> <a href="#" class="btn2 cufon">saiba mais</a>
+    
+    </div>
+    <div class="foto">
+      <img src="img/slider-video.png" />
+    </div>
+    
+    
+     </div>
+    <div class="clear"></div>
+    <!--fim banner--> 
+  </div>
+</div>
+<div class="clear"></div>
+<!--fim topo--> 
+
+<!--comeca conteudo principal-->
+<div id="principal"> 
+  
+  <!--informacoes do curso-->
+  <div class="hr">
+    <hr />
+  </div>
+  <div class="num-cursos">
+    <div class="cursos1 cufon">
+      <h3 >45</h3>
+      cursos</div>
+    <div class="cursos cufon">
+      <h3>4000</h3>
+      alunos</div>
+    <div class="cursos cufon">
+      <h3>120000</h3>
+      videoaulas</div>
+    <div class="cursos cufon">
+      <h3>4800</h3>
+      horas de aula</div>
+    <div class="busca">
+      <form>
+        <input type="text" class="texto" />
+        <input type="submit" class="btn-busca" />
+      </form>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="hr">
+    <hr />
+  </div>
+  <!--  fim informacoes do curso--> 
+  
+  <!--tab curso-->
+  <div class="tab">
+    <ul class="nav cufon">
+      <li><a href="#vertodos">Ver Todos</a></li>
+      <li><a href="#designtotal">Design Total</a></li>
+      <li><a href="#3dtotal">3D Total</a></li>
+      <li><a href="#webtotal">Web Total</a></li>
+      <li><a href="#motiontotal">Motion Total</a></li>
+      <li><a href="#cursosgratis">Cursos Gratis</a></li>
+      <li><a href="#formacoes">Formacoes</a></li>
+    </ul>
+    <div class="list-wrap">
+      <ul id="vertodos">
+        <li>
+			<div class="box-lista-formacao">
+            <div class="texto">
+            <h3 class="cufon">Formacao WebDesigner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus urna nec dui dapibus in varius ipsum feugiat. Vestibulum sit amet nunc pretium metus pharetra auctor. Pellentesque nec ligula odio. </p>
+            </div>
+            <div class="cursos-desta-formacao">
+                        <h3 class="cufon">Cursos desta formacao</h3>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>                    
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>      
+            </div>
+            </div>
+   			<div class="box-lista-formacao">
+            <div class="texto">
+            <h3 class="cufon">Formacao WebDesigner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus urna nec dui dapibus in varius ipsum feugiat. Vestibulum sit amet nunc pretium metus pharetra auctor. Pellentesque nec ligula odio. </p>
+            </div>
+            <div class="cursos-desta-formacao">
+                        <h3 class="cufon">Cursos desta formacao</h3>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>                    
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>      
+            </div>
+            </div>
+			<div class="box-lista-formacao">
+            <div class="texto">
+            <h3 class="cufon">Formacao WebDesigner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus urna nec dui dapibus in varius ipsum feugiat. Vestibulum sit amet nunc pretium metus pharetra auctor. Pellentesque nec ligula odio. </p>
+            </div>
+            <div class="cursos-desta-formacao">
+                        <h3 class="cufon">Cursos desta formacao</h3>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>                    
+          <div class="box-lista-curso cufon"> <a href="#"><img src="img/img-cursos1.png" /></a>
+            <h4><a href="#">3ds Max</a></h4>
+          </div>      
+            </div>
+            </div>                     
+        </li>
+      </ul>
+      <ul id="designtotal" class="hide">
+        <li>Stuff in here!</li>
+      </ul>
+      <ul id="3dtotal" class="hide">
+        <li>Stuff in here!</li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!--fim tab curso-->
+  <div class="facaseulogin" style=" margin-left:350px;"> <a class="btn1 cufon" href="#">ver todos</a> <span>ja e membro?</span> <a href="#">faca seu login</a> </div>
+  <div class="clear"></div>
+  <div class="hr">
+    <hr />
+  </div>
+  <br />
+  
+  <!--tab-sociedade-->
+  <div class="tab">
+    <ul class="nav cufon">
+      <li><a href="#estaoligados">estao ligados</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testemunho">Testemunho</a></li>
+    </ul>
+    <div class="list-wrap">
+      <ul id="estaoligados">
+        <li>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+          <div class="box-pessoa-social"> <a href="#"><img src="img/img-pessoa.png" /></a> </div>
+        </li>
+      </ul>
+      <ul id="estaoligados" class="hide">
+        <li>Stuff in here!</li>
+      </ul>
+      <ul id="estaoligados" class="hide">
+        <li>Stuff in here!</li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="facapartedacomunidade cufon">
+    <h2>Faca parte <span>da maior comunidade do Brasil</span></h2>
+  </div>
+  <div class="facaseulogin" style="margin-left:0px;"> <span>ja e membro?</span> <a href="#">faca seu login</a> <a class="btn1 cufon" href="#" style=" margin-left:70px;">cadastre-se</a> <a class="btn2 cufon" href="#">saiba mais</a> </div>
+  <div class="clear"></div>
+  <br />
+  <br />
+  
+  <!--fim tab sociedade-->
+  
+  <ul class="siga">
+    <li class="siga-twitter"><a href="#">Siga agente no twitter</a> </li>
+    <li class="siga-facebook"><a href="#">Curta agente no twitter</a> </li>
+    <li class="siga-youtube"><a href="#">Assista agente no youtube</a> </li>
+    <li class="siga-orkut"><a href="#">Nos adicione no Orkut</a> </li>
+  </ul>
+</div>
+<div class="clear"></div>
+<!--fimconteudo principal--> 
+
+<!--comeca rodape-->
+<div class="bg-footer">
+  <div id="footer"> 
+    
+    <!--tab rodape-->
+    <div class="tab">
+      <ul class="nav cufon">
+        <li><a href="#vertodos">ver todos</a></li>
+        <li><a href="#softwares">softwares</a></li>
+        <li><a href="#maisvistos">mais vistos</a></li>
+      </ul>
+      <div class="list-wrap">
+        <ul id="estaoligados">
+          <li>
+            <ul>
+              <li>
+                <h3 class="cufon"><a href="#">Design Total</a></h3>
+              </li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+            </ul>
+            <ul>
+              <li>
+                <h3 class="cufon"><a href="#">3D Total</a></h3>
+              </li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+            </ul>
+            <ul>
+              <li>
+                <h3 class="cufon"><a href="#">Web Total</a></h3>
+              </li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+            </ul>
+            <ul>
+              <li>
+                <h3 class="cufon"><a href="#">Motion Total</a></h3>
+              </li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+            </ul>
+            <ul>
+              <li>
+                <h3 class="cufon"><a href="#">Cursos Gratis</a></h3>
+              </li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+              <li><a href="#">WDS</a></li>
+              <li><a href="#">INK</a></li>
+              <li><a href="#">Desenho</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul id="estaoligados" class="hide">
+          <li>Stuff in here!</li>
+        </ul>
+        <ul id="estaoligados" class="hide">
+          <li>Stuff in here!</li>
+        </ul>
+      </div>
+    </div>
+    <!-- fim tab rodape -->
+    <div class="hr2">
+      <hr />
+    </div>
+    <br />
+    <br />
+    <br />
+    <ul class="contato-rodape">
+      <li>
+        <h3 class="cufon contato">Contato</h3>
+        <p>55 (41) 3045-0345<br />
+          Av. Visconde de Guarapuava 3444<br />
+          Centro - Curitiba<br />
+          Paraná - Brasil</p>
+        <p><a href="#" class="cufon btn">Atendimento Online</a></p>
+      </li>
+      <li>
+        <h3 class="cufon twitter">direto do twitter</h3>
+        <p><a href="#">Dreamweaver Total<br />
+          Professor: Andrei Gomes<br />
+          Professor: Reinaldo dos Santos Guth</a></p>
+        <p><a href="#">Dreamweaver Total<br />
+          Professor: Andrei Gomes<br />
+          Professor: Reinaldo dos Santos Guth</a></p>
+        <p><a href="#" class="cufon btn">ir pro twitter</a></p>
+      </li>
+      <li>
+        <h3 class="cufon blog">direto do blog</h3>
+        <p><a href="#">Dreamweaver Total<br />
+          Professor: Andrei Gomes<br />
+          Professor: Reinaldo dos Santos Guth</a></p>
+        <p><a href="#">Dreamweaver Total<br />
+          Professor: Andrei Gomes<br />
+          Professor: Reinaldo dos Santos Guth</a></p>
+        <p><a href="#" class="cufon btn">ir pro blog</a></p>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="bg-footer2">
+  <div class="footer2">
+    <ul>
+      <li>
+        <h3>Suporte</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Pagamento</a></li>
+          <li class="last"><a href="#">Contato</a></li>
+        </ul>
+      </li>
+      <li>
+              <h3>Produtos</h3>
+        <ul>
+          <li><a href="#">Pacotes</a></li>
+          <li class="last"><a href="#">Acessorios</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>Institucional</h3>
+        <ul>
+          <li><a href="#">Trabalhe Conosco</a></li>
+          <li class="last"><a href="#">Sobre Nos</a></li>
+        </ul>
+      </li>
+
+    </ul>
+    <div class="clear"></div>
+    <hr />
+    <ul class="desenvolvido">
+    <li class="esq">Todos direitos reservados © 2006-2010 <a href="#">lucianoaugusto.com.br</a></li>
+    <li class="dir"><span>Desenvolvido por</span><a href="#" class="logo-redsuns">Redsuns</a><a href="#" class="logo-luciano">Luciano Augusto.</a></li>
+    </ul>
+        <div class="clear"></div>
+    <div class="mascote"><a href="#">Luciano Augusto</a></div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!--fim rodape-->
+
+</body>
+</html>

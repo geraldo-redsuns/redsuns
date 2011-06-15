@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Bombardier_400.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace('.cufon',{ fontFamily: 'Bombardier', hover:true});
+</script>
+<!--script para funcionar tabs-cursos-->
+<script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script type='text/javascript'>
+$(function() {
+
+	$(".tabs").organicTabs();
+
+});
+</script>
+
+
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox1").fancybox({
+	         'type' : 'iframe',				
+         	'autoScale' : false,									
+			'autoDimensions'	: false,									
+			'width'    	: 645,
+			'height'   	: 640,				
+			});
+			
+			$(".fancybox2").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 430,		
+			});
+					
+			$(".fancybox3").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 490,		
+			});
+					
+			$(".fancybox4").fancybox({
+				         'type' : 'iframe',		
+						          	'autoScale' : true,									
+			'autoDimensions'	: true,	
+					'width'    	: 470,
+			'height'   	: 570,		
+			});		
+		$('#preco_cad').priceFormat({
+			prefix: '',
+			centsSeparator: ',',
+			thousandsSeparator: '.'
+		}); 
+
+		$("a[rel=example_group]").fancybox({
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'titlePosition' 	: 'over'
+		});
+
+	});
+
+</script>
+<!-- fim script para funcionar tabs-cursos-->
+<title>Luciano Augusto</title>
+</head>
+
+<body>
+<!--comeca topo-->
+
+
+<!--comeca conteudo principal-->
+<div id="principal">
+	<div align="center" style="vertical-align:central; margin-top:100px;">
+    <a href="#"><img src="img/manutencao.png" /></a>
+    
+    </div> 
+ </div>
+
+</body>
+</html>
